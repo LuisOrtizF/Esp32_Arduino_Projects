@@ -30,7 +30,7 @@ I present some helpful code to use sensors with the popular chip **ESP32** in th
 ## NOTE:
 
 <p style="background:black">
-<code style="background:black;color:red">If you find any of these codes helpful, please share my <a href="https://github.com/LuisOrtizF">GitHub</a> and STAR :star: this repository to help other enthusiasts to find these tools. Remember, the knowledge must be shared. Otherwise, it is useless and lost in time.
+<code style="background:black;color:red">If you find any of these codes helpful, please share my <a href="https://github.com/LuisOrtizF">GitHub</a> and STAR</code>:star:<code style="background:black;color:red">this repository to help other enthusiasts to find these tools. Remember, the knowledge must be shared. Otherwise, it is useless and lost in time.
 </code>
 </p>
 
