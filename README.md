@@ -1,14 +1,17 @@
 # Projects with ESP32 and Arduino
----
 
 I present some helpful code to use sensors with the popular chip **ESP32** in this repository. All codes are developed in **Aruco IDE.**
 
-<marquee behavior="scroll" direction="down">
-<img src="\Images\arduino.png" width="175" height="100" alt="arduino" />
-<img src="\Images\esp32.webp" width="200" height="200" alt="esp32" />
-<img src="\Images\LSM9DS1.jpg" width="100" height="100" alt="LSM9DS1" />
-<img src="\Images\VL53L1X.jpeg" width="200" height="200" alt="VL53L1X" />
-</marquee>
+<div align="center">
+<table> 
+  <tr> 
+    <td> <img src="/Images/arduino.png" width="100" height="75" alt="arduino"/> </td>
+    <td> <img src="/Images/esp32.webp" width="200" height="200" alt="esp32"/> </td>
+    <td><img src="/Images/LSM9DS1.jpg" width="100" height="100" alt="LSM9DS1"/></td>
+    <td><img src="/Images/VL53L1X.jpeg" width="150" height="150" alt="VL53L1X"/></td>
+  </tr>
+</table>
+</div>
 
 + **AHRS_LSM9DS1_IMU**: Test the __[Sebastian Madgwick's](http://www.x-io.co.uk/category/open-source/)__ orientation filter on __[LSM9DS1](https://www.st.com/en/mems-and-sensors/lsm9ds1.html)__ IMU.
 
@@ -24,14 +27,18 @@ I present some helpful code to use sensors with the popular chip **ESP32** in th
 + **Test_ThingSpeak**: Send and Visualize **ESP32** data to the ThingSpeak platform.
 + **Test_VL53L1X_ToF**: Measure distance using the **VL53L1X** range sensor. 
 
-<p style="border:3px solid Orange;" > Note: If you find any of these codes helpful, please share my <a href="https://github.com/LuisOrtizF">GitHub</a> to help other enthusiasts to find these tools. Remember, the knowledge must be shared. Otherwise, it is useless and lost in time.</p>
+## NOTE:
+
+<p style="background:black">
+<code style="background:black;color:red">If you find any of these codes helpful, please share my <a href="https://github.com/LuisOrtizF">GitHub</a> to help other enthusiasts to find these tools. Remember, the knowledge must be shared. Otherwise, it is useless and lost in time.
+</code>
+</p>
 
 ## References:
----
 
 Please cite the following papers if you use any of these codes in your projects:
 
-******
+```
 @ARTICLE{Ortiz2021,
     AUTHOR  = {Ortiz-Fernandez, Luis E. and Cabrera-Avila, Elizabeth V. and Silva, Bruno M. F. da and Gonçalves, Luiz M. G.},
     TITLE   = {Smart Artificial Markers for Accurate Visual Mapping and Localization},
@@ -43,4 +50,4 @@ Please cite the following papers if you use any of these codes in your projects:
     ISSN    = {1424-8220},
     DOI     = {10.3390/s21020625}
 }
-******
+```
